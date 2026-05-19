@@ -12,7 +12,7 @@ class bird:
 class penguin(bird):
 
     def __init__(self):
-        super().__init__()
+        super().__init__(self)
         print("penguin is ready")
 
 
